@@ -5,10 +5,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "open-sans", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        .box {
+            margin-top: 55px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 5px;
+        }
+        
+        .box>div {
+            text-align: center;
+        }
+        
+        .box>div img {
+            border-radius: 10px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>i am heading</h1>
+    <nav style="text-align: center;">
+        <h2>Strategic inverstor</h2>
+    </nav>
+    <div class="box">
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vijay_Shekhar_Sharma_Paytm_96f52579b8.jpg" alt="">
+            <h3>Vijay Shekhar Sharma</h3>
+            <p>Founder & CEO</p>
+            <h3>PAYTM</h3>
+
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Rectangle_427_637d69bb57.png" alt="">
+            <h3>Kunal Shah</h3>
+            <p>Founder</p>
+            <h3>CRED</h3>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/amrish_rau_pine_labs_144e5e587c.jpg" alt="">
+            <h3>Amrish Rau</h3>
+            <p>CEO</p>
+            <h3>PINE LABS</h3>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Sampad_swain_Instamojo_f12bf6341e.jpg" alt="">
+            <h3>Sampad Swain</h3>
+            <p>Co Founder & CEO</p>
+            <h3>INSTAMOJO</h3>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Ankush_Sachdeva_Sharechat_4e44dbbe6b.jpg" alt="">
+            <h3>Ankush Sachdeva</h3>
+            <p>Co-Founder & CEO</p>
+            <h3>SHARECHAT</h3>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/bhanu_pratap_singh_sharechat_11fdd7b47a.jpg" alt="">
+            <h3>Bhanu Pratap Singh</h3>
+            <p>Co-Founder & CTO</p>
+            <h3>SHARECHAT</h3>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/farid_ahsan_sharechat_1251f28141.png" alt="">
+            <h3>Farid Ahsan</h3>
+            <p>Co-founder</p>
+            <h3>SHARECHAT</h3>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Amit_Kumar_Agarwal_Nobroker_a8a279ad91.jpg" alt="">
+            <h3>Amit Kumar Agarwal</h3>
+            <p>Co-founder & CEO</p>
+            <h3>No BROKER</h3>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Akhil_Gupta_Nobroker_539cd97f6c.jpg" alt="">
+            <h3>Akhil Gupta</h3>
+            <p>Founder & CTO</p>
+            <h3>NO BROKER</h3>
+        </div>
+        <div>
+            <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/saurbh_garg_nobroker_c0c71cc431.jpeg" alt="">
+            <h3>Saurabh Garg</h3>
+            <p>Co-Founder & CBO</p>
+            <h3>NO BROKER</h3>
+        </div>
+        <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Vipin_Pathak_Care24_acd02cd173.jpg" alt="">
+            <h3>Vipin Pathak</h3>
+            <p>Co-Founder & CEO</p>
+            <h3>CARE24</h3>
+        </div>
+        <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Ramakant_Sharma_livespace_0308e3627d.jpg" alt="">
+            <h3>Ramakant Sharma</h3>
+            <p>Founder</p>
+            <h3>LIVESPACE</h3>
+        </div>
+        <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Mohit_Tandon_Delhivery_b43fee16c4.jpg" alt="">
+            <h3>Mohit Tandon</h3>
+            <p>Co-Founder</p>
+            <h3>DELHIVERY</h3>
+        </div>
+        <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Abhishek_Goyal_tracxn_5b2f61d87d.jpg" alt="">
+            <h3>Abhishek Goyal</h3>
+            <p>Co-Founder</p>
+            <h3>TRACXIN</h3>
+        </div>
+        <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Anurag_Jain_Kredx_b6ed6a31c6.jpg" alt="">
+            <h3>Anurag Jain</h3>
+            <p>Founder & Executive Director</p>
+            <h3>KREDX</h3>
+        </div>
+        <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Harshvardhan_Lunia_Lendingkart_44d72a6fcd.jpg" alt="">
+            <h3>Harshvardhan Lunia</h3>
+            <p>Co-Founder & CEO</p>
+            <h3>LANDINGKART</h3>
+        </div>
+        <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/sunil_rao_amazon_dfd2daa06d.jpeg" alt="">
+            <h3>Sunil Rao</h3>
+            <p>Country Head Strategy and Corporate B</p>
+            <h3>AMAZON</h3>
+        </div>
+        <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Sharda_Balaji_Novojuris_2a206f2f88.jpg" alt="">
+            <h3>Sharda Balaji</h3>
+            <p>Founder</p>
+            <h3>NOVOJURIS</h3>
+        </div>
+        <div><img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/Kulin_Shah_Onsurity_0dd3a1802f.jpg" alt="">
+            <h3>Kulin Shah</h3>
+            <p>Co-Founder</p>
+            <h3>INSURITY</h3>
+        </div>
+    </div>
 </body>
 
 </html>
